@@ -1,0 +1,22 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "e-commerce site for digital academy",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Medea0101/final-project-e-commerce.git"
+  },
+  "author": "Medea Gulbatashvili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Medea0101/final-project-e-commerce/issues"
+  },
+  "homepage": "https://github.com/Medea0101/final-project-e-commerce#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
