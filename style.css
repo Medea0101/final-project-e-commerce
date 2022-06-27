@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+header{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #DCD2E6;
+}
+header a img{
+    width:40%;
+}
+main{
+    background-color: #DCD2E6;
+}
+body{
+    background-color: #DCD2E6;
+}
+.cart{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #504d4d;
+    color:#DCD2E6;
+}
+.cart:hover{
+    background-color: #295c31;;
+    color: #DCD2E6;
+}
+#mainH{
+    background-image: url("./images/mainPic.jpg");
+    background-position: top 25% right 0;
+    background-size: cover;
+    height:90vh;
+    width:100%;
+}
+#mainH h2{
+    font-size: 40px;
+    padding:20px;
+}
+.container{
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 20px;
+}
+.image{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.image img{
+    width:100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.image h3{
+    padding:10px 0 0 0;
+}
+.image p{
+    padding: 10px;
+    text-align: center;
+}
+.products-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:50px;
+    padding-bottom: 100px;
+}
+.add-cart {
+    text-decoration: none;
+    padding:10px;
+    background-color: #504d4d;
+    color:#DCD2E6;
+}
+.add-cart:hover{
+    background-color: #295c31;;
+    color: #DCD2E6;
+}
+.products-container{
+    max-width:800px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.product-header{
+    width:100%;
+    max-width: 800px;
+    display:flex;
+    justify-content: center;
+    border-bottom: 3px solid #504d4d;
+    margin: 0 auto;
+}
+.product-title{
+    width:30%;
+}
+.price{
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.quantity{
+    width: 20%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.total{
+    width: 18%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.product{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(75, 72, 72);
+}
+.products{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.products img{
+    width: 100px;
+}
